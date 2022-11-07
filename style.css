@@ -182,3 +182,38 @@ header {
 .cta:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
+.gamelinksleft{
+  font-size: 1.3vw;
+  text-decoration: none;
+  background-color: rgba(5, 29, 165, 0.700);
+  float: left;
+  left: 9vw;
+  border-radius: 19px;
+  width: 19vw;
+}
+.gamelinksright{
+  font-size: 1.3vw;
+  text-decoration: none;
+  background-color: rgb(5, 29, 165, 0.700);
+  float: right;
+  right: 9vw;
+  border-radius: 19px;
+  width: 19vw;
+}
+.newgamestitle{
+  font-size: 2.6vw;
+  color: white;
+  text-align: center;
+  font-family: "Fredoka One"
+  
+}
+.newgames{
+  font-size: 1.35vw;
+  text-decoration: none;
+  background-color: rgb(5, 29, 165, 0.700);
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  width: 19vw;
+}
