@@ -142,29 +142,29 @@ h6{
   font-size: 2.3vw;
 }
 button{
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   font-family: "Fredoka One";
   color: rgb(3, 22, 44);
   border-radius: 0.63vw;
-  border-width: 0.5vw;
-  padding-left: 5px;
-  padding-right: 5px;
+  border-width: 0.4vw;
+  padding-left: 3px;
+  padding-right: 3px;
   position: relative;
-  background-color:   #5d63da;
+  background-color: #2b2b2b;
   border-style: outset;
-  border-color: #6a23db;
+  border-color: #1c1c1c;
   overflow: hidden;
   box-shadow: 3px 3px #472790c0;
   transition: all 0.1s ease-in-out;
 }
 .button:hover {
-    background-color: #757cf5;
+    background-color: #3a3a3a;
     transform: scale(0.95);
     cursor: pointer;
 }
 .button:active {
   transform: scale(1.0);
-  background-color: #757cf5;
+  background-color: #3a3a3a;
   overflow:visible;
   box-shadow: 5px 5px #472790c0;
 }
