@@ -175,67 +175,60 @@ div{
   position: relative;
   overflow:visible
 }
-a:link{
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
   text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
 }
-a:hover{
-  text-decoration: underline;
+
+.nav__links li {
+  padding: 0px 20px;
 }
-.list{
-  font-size: 3vw
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
 }
-.mainbackbutton{
-  text-align: center;
-  font-family: "Fredoka One";
-  text-decoration: none;
-  font-size: 1.3vw
+
+.nav__links li a:hover {
+  color: #0088a9;
 }
-.aboutbutton{
-  text-align: left;
-  position: absolute;
-  left: 1.6%;
-  bottom: 3%;
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
-.statusbutton{
-  bottom: 3%;
-  position: absolute;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-.gamelinksleft{
-  font-size: 1.3vw;
-  text-decoration: none;
-  background-color: rgba(5, 29, 165, 0.700);
-  float: left;
-  left: 9vw;
-  border-radius: 19px;
-  width: 19vw;
-}
-.gamelinksright{
-  font-size: 1.3vw;
-  text-decoration: none;
-  background-color: rgb(5, 29, 165, 0.700);
-  float: right;
-  right: 9vw;
-  border-radius: 19px;
-  width: 19vw;
-}
-iframe{
-  display: block;
-  margin: 50px auto;
-}
-.gamesbackbutton{
-  float: left;
-  font-family: "Fredoka One";
-  font-size: 1.0vw;
-  text-decoration: none;
-  display: inline-block;
-}
-.gamespurple{
-  font-size: 1.3vw;
-  text-align: center;
-  color: mediumpurple;
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
 }
