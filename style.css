@@ -117,59 +117,7 @@
 .inlinebtn{
   display: inline;
 }
-titlename{
-  font-family: "Fredoka One";
-  font-size: 8vw;
-  color: rgb(16, 0, 137);
-  text-shadow: 8px 8px #5022b9c0;
-  text-align: center;
-  position: relative;
-  z-index: 6;
-}
-h1{
-  font-family: "Fredoka One";
-  font-size: 8vw;
-  color: rgb(16, 0, 37);
-  text-shadow: 6px 6px #5022b9c0;
-  text-align: center;
-}
-h3{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
-  font-size: 3vw;
-}
-h6{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
-  font-size: 2.3vw;
-}
-button{
-  font-size: 1.5vw;
-  font-family: "Fredoka One";
-  color: rgb(3, 22, 44);
-  border-radius: 0.63vw;
-  border-width: 0.4vw;
-  padding-left: 3px;
-  padding-right: 3px;
-  position: relative;
-  background-color: #2b2b2b;
-  border-style: outset;
-  border-color: #1c1c1c;
-  overflow: hidden;
-  box-shadow: 3px 3px #472790c0;
-  transition: all 0.1s ease-in-out;
-}
-.button:hover {
-    background-color: #3a3a3a;
-    transform: scale(0.95);
-    cursor: pointer;
-}
-.button:active {
-  transform: scale(1.0);
-  background-color: #3a3a3a;
-  overflow:visible;
-  box-shadow: 5px 5px #472790c0;
-}
+
 div{
   text-align: center;
   font-family: "Fredoka One";
@@ -203,7 +151,7 @@ header {
 .nav__links a,
 .cta,
 .overlay__content a {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   color: #edf0f1;
   text-decoration: none;
